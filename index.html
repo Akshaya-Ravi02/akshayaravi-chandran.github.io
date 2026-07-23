@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Akshaya | Full Stack Developer Portfolio</title>
+  <title>Akshaya Ravi Chandran</title>
   <meta name="description" content="Akshaya — Full Stack Developer with 3+ years of professional experience at TCS, specializing in scalable web applications, clean architecture, and thoughtful UI/UX.">
   <meta name="keywords" content="Akshaya, Full Stack Developer, Web Developer, Tamil Nadu, PHP, Node.js, MySQL, JavaScript, UX Design, TCS">
   <meta name="author" content="Akshaya">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://your-portfolio-url.example.com/">
+  <link rel="canonical" href="https://akshayaravi-chandran.github.io/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Akshaya | Full Stack Developer Portfolio">
+  <meta property="og:title" content="Akshaya Ravi Chandran">
   <meta property="og:description" content="Full Stack Developer with 3+ years of professional experience, building scalable web applications with excellent UI/UX and strong backend architecture.">
-  <meta property="og:url" content="https://your-portfolio-url.example.com/">
+  <meta property="og:url" content="hhttps://akshayaravi-chandran.github.io/">
   <meta property="og:image" content="assets/og-image.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Akshaya | Full Stack Developer Portfolio">
+  <meta name="twitter:title" content="Akshaya Ravi Chandran">
   <meta name="twitter:description" content="Full Stack Developer with 3+ years of professional experience, building scalable web applications with excellent UI/UX and strong backend architecture.">
 
   <!-- Favicon -->
@@ -29,7 +29,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <style>
-/* ==========================================================================
+/*
    AKSHAYA — PORTFOLIO STYLESHEET
    Table of contents:
    1. Design Tokens (CSS Custom Properties)
@@ -50,11 +50,9 @@
    16. Back to Top
    17. Scroll Reveal Animations
    18. Responsive Breakpoints
-   ========================================================================== */
+    */
 
-/* ==========================================================================
-   1. DESIGN TOKENS
-   ========================================================================== */
+/* 1. Design Tokens */
 :root {
   /* Brand palette */
   --blue: #c261e9;
@@ -138,9 +136,9 @@
   }
 }
 
-/* ==========================================================================
+/*
    2. RESET & BASE
-   ========================================================================== */
+  */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html {
@@ -191,9 +189,9 @@ textarea:focus-visible {
 }
 .skip-link:focus { top: var(--space-sm); }
 
-/* ==========================================================================
+/*
    3. UTILITIES
-   ========================================================================== */
+   */
 .text-gradient {
   background: var(--gradient-text);
   -webkit-background-clip: text;
@@ -284,9 +282,9 @@ textarea:focus-visible {
   border: 1px solid rgba(139, 92, 246, 0.25);
 }
 
-/* ==========================================================================
+/*
    4. BACKGROUND ATMOSPHERE
-   ========================================================================== */
+  */
 .bg-atmosphere {
   position: fixed;
   inset: 0;
@@ -323,9 +321,9 @@ textarea:focus-visible {
   66% { transform: translate(-3%, -4%) scale(0.95); }
 }
 
-/* ==========================================================================
+/*
    5. LOADER
-   ========================================================================== */
+*/
 .loader {
   position: fixed;
   inset: 0;
@@ -372,9 +370,9 @@ textarea:focus-visible {
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* ==========================================================================
+/*
    6. NAVIGATION
-   ========================================================================== */
+*/
 .navbar {
   position: fixed;
   top: 0;
@@ -487,9 +485,9 @@ textarea:focus-visible {
 .nav-toggle.is-active span:nth-child(2) { opacity: 0; }
 .nav-toggle.is-active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-/* ==========================================================================
+/*
    7. HERO
-   ========================================================================== */
+*/
 .hero {
   position: relative;
   min-height: 100vh;
@@ -681,9 +679,9 @@ textarea:focus-visible {
   50% { transform: translate(-50%, 8px); }
 }
 
-/* ==========================================================================
+/*
    8. SHARED SECTION LAYOUT
-   ========================================================================== */
+*/
 .section { position: relative; padding: var(--space-2xl) var(--space-lg); }
 .section--alt { background: var(--bg-elevated); }
 .section__container { max-width: var(--max-width); margin: 0 auto; }
@@ -701,9 +699,9 @@ textarea:focus-visible {
 .section__title { font-size: clamp(1.8rem, 3.5vw, 2.6rem); }
 .section__subtitle { color: var(--text-secondary); margin-top: var(--space-sm); }
 
-/* ==========================================================================
+/*
    ABOUT
-   ========================================================================== */
+*/
 .about__grid {
   /* display: grid; */
   grid-template-columns: 1.4fr 1fr;
@@ -748,9 +746,9 @@ textarea:focus-visible {
 .info-list strong { color: var(--text-primary); font-weight: 600; text-align: right; }
 .info-list__traits { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: var(--space-md); }
 
-/* ==========================================================================
+/*
    9. SKILLS
-   ========================================================================== */
+*/
 .skills__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -795,9 +793,9 @@ textarea:focus-visible {
 
 .chip-grid { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 
-/* ==========================================================================
+/*
    10. PROJECTS
-   ========================================================================== */
+*/
 .filter-bar {
   display: flex;
   justify-content: center;
@@ -886,9 +884,9 @@ textarea:focus-visible {
 }
 .project-card__tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
-/* ==========================================================================
+/*
    11. EXPERIENCE TIMELINE
-   ========================================================================== */
+*/
 .timeline { position: relative; max-width: 900px; margin: 0 auto; padding-left: var(--space-lg); }
 .timeline::before {
   content: '';
@@ -954,9 +952,8 @@ textarea:focus-visible {
 .timeline__list strong { color: var(--text-primary); }
 .timeline__tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
-/* ==========================================================================
-   12. EDUCATION
-   ========================================================================== */
+   /* 12. EDUCATION */
+
 .education__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -979,9 +976,9 @@ textarea:focus-visible {
 .education__card h3 span { color: var(--cyan); font-weight: 500; }
 .education__meta { color: var(--text-tertiary); font-size: 0.85rem; }
 
-/* ==========================================================================
-   13. CERTIFICATIONS & ACHIEVEMENTS
-   ========================================================================== */
+
+   /* 13. CERTIFICATIONS & ACHIEVEMENTS */
+
 .cert__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1025,9 +1022,8 @@ textarea:focus-visible {
 .achievement__card h3 { font-size: 1rem; margin-bottom: 0.4rem; }
 .achievement__card p { color: var(--text-secondary); font-size: 0.85rem; }
 
-/* ==========================================================================
-   14. CONTACT
-   ========================================================================== */
+   /* 14. CONTACT */
+
 .contact__grid {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
@@ -1101,9 +1097,8 @@ textarea:focus-visible {
 }
 .form-success.is-visible { display: block; animation: fadeInUp var(--dur-med) var(--ease-out); }
 
-/* ==========================================================================
-   15. FOOTER
-   ========================================================================== */
+   /* 15. FOOTER */
+
 .footer {
   background: var(--bg-elevated);
   border-top: 1px solid var(--border-glass);
@@ -1137,9 +1132,8 @@ textarea:focus-visible {
   color: var(--text-tertiary);
 }
 
-/* ==========================================================================
-   16. BACK TO TOP
-   ========================================================================== */
+   /* 16. BACK TO TOP */
+
 .back-to-top {
   position: fixed;
   bottom: var(--space-md);
@@ -1163,9 +1157,9 @@ textarea:focus-visible {
 .back-to-top:hover { transform: translateY(-4px); }
 .back-to-top svg { width: 20px; height: 20px; }
 
-/* ==========================================================================
-   17. SCROLL REVEAL
-   ========================================================================== */
+
+   /* 17. SCROLL REVEAL */
+
 .reveal { opacity: 0; transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out); }
 .reveal[data-reveal="up"] { transform: translateY(40px); }
 .reveal[data-reveal="left"] { transform: translateX(-40px); }
@@ -1178,9 +1172,8 @@ textarea:focus-visible {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ==========================================================================
-   18. RESPONSIVE BREAKPOINTS
-   ========================================================================== */
+   /* 18. RESPONSIVE BREAKPOINTS */
+
 
 /* Laptop / small desktop */
 @media (max-width: 1180px) {
@@ -1263,7 +1256,7 @@ textarea:focus-visible {
 </head>
 <body>
 
-  <!-- ============ LOADER ============ -->
+<!-- LOADER -->
   <div class="loader" id="loader" aria-hidden="true">
     <div class="loader__mark">
       <span>Akshaya</span>
@@ -1273,10 +1266,10 @@ textarea:focus-visible {
     </div>
   </div>
 
-  <!-- ============ SKIP LINK ============ -->
+<!-- SKIP LINK -->
   <a href="#main" class="skip-link">Skip to main content</a>
 
-  <!-- ============ BACKGROUND ATMOSPHERE ============ -->
+<!-- BACKGROUND ATMOSPHERE -->
   <div class="bg-atmosphere" aria-hidden="true">
     <div class="bg-grid"></div>
     <div class="bg-orb bg-orb--1"></div>
@@ -1284,7 +1277,7 @@ textarea:focus-visible {
     <div class="bg-orb bg-orb--3"></div>
   </div>
 
-  <!-- ============ NAVIGATION ============ -->
+<!-- NAVIGATION -->
   <header class="navbar" id="navbar">
     <nav class="nav-container" aria-label="Primary">
       <a href="#home" class="nav-logo" aria-label="Akshaya, home">
@@ -1319,7 +1312,7 @@ textarea:focus-visible {
 
   <main id="main">
 
-    <!-- ============ HERO ============ -->
+<!-- HERO  -->
     <section class="hero" id="home">
       <div class="hero__container">
 
@@ -1346,8 +1339,9 @@ build&nbsp;<span class="typing-text" id="typingText" aria-live="polite"></span><
   View My Work
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
   </a>
-  <a href="Resume/Akshaya-resume-1.pdf" class="btn btn--outline" download>
+  <a href="/Akshaya-resume-1.pdf" download="Akshaya R, Python full stack developer.pdf" class="btn btn--outline">
   Download Resume
+  
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"></path></svg>
   </a>
   </div>
@@ -1393,7 +1387,7 @@ build&nbsp;<span class="typing-text" id="typingText" aria-live="polite"></span><
       </a>
     </section>
 
-    <!-- ============ ABOUT ============ -->
+<!-- ABOUT -->
 <section class="section" id="about">
 <div class="section__container">
 <div class="section__header reveal" data-reveal="up">
@@ -1405,7 +1399,7 @@ build&nbsp;<span class="typing-text" id="typingText" aria-live="polite"></span><
 <div class="about__text reveal" data-reveal="up">
 <p>
 I'm a passionate <strong>Full Stack Developer</strong> with a strong foundation in modern web
-development and<strong>3+ years of professional experience Tata Consultancy Services (TCS)</strong>, 
+development and<strong> 3+ years of professional experience Tata Consultancy Services (TCS)</strong>, 
 My experience in enterprise operations sharpened my analytical thinking, attention to detail, 
 and ability to collaborate accross teams. Today, I leverage those strengths to build responsive, 
 scalable, and secure web applications using clean code, intuitive UI/UX, and robust backend architecture.
@@ -1456,7 +1450,7 @@ value.</p>
       </div>
     </section>
 
-    <!-- ============ SKILLS ============ -->
+<!-- SKILLS -->
     <section class="section section--alt" id="skills">
       <div class="section__container">
         <div class="section__header reveal" data-reveal="up">
@@ -1535,7 +1529,7 @@ value.</p>
       </div>
     </section>
 
-    <!-- ============ PROJECTS ============ -->
+<!-- PROJECTS -->
     <section class="section" id="projects">
       <div class="section__container">
         <div class="section__header reveal" data-reveal="up">
@@ -1800,10 +1794,10 @@ value.</p>
             <h3>Agile Methodology</h3>
             <p>TCS &mdash; Talent Development</p>
           </div>
-        </div>
+        </div>-->
 
-        <!-- ============ ACHIEVEMENTS ============ -->
-        <div class="section__header section__header--sub reveal" data-reveal="up">
+<!-- ACHIEVEMENTS -->
+        <!-- <div class="section__header section__header--sub reveal" data-reveal="up">
           <p class="section__eyebrow">Recognition</p>
           <h2 class="section__title">Achievements</h2>
         </div>
@@ -1841,7 +1835,7 @@ value.</p>
       </div>
     </section> -->
 
-    <!-- ============ CONTACT ============ -->
+<!-- CONTACT -->
     <section class="section" id="contact">
       <div class="section__container">
         <div class="section__header reveal" data-reveal="up">
@@ -1929,7 +1923,7 @@ value.</p>
 
   </main>
 
-  <!-- ============ FOOTER ============ -->
+<!-- FOOTER -->
   <footer class="footer">
     <div class="footer__container">
       <div class="footer__brand">
@@ -1968,7 +1962,7 @@ value.</p>
     </div>
   </footer>
 
-  <!-- ============ BACK TO TOP ============ -->
+<!-- BACK TO TOP -->
   <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"></path></svg>
   </button>
@@ -1994,9 +1988,8 @@ value.</p>
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  /* ========================================================================
-     1. LOADER
-     ======================================================================== */
+    //  1. LOADER
+
   const loader = document.getElementById('loader');
   window.addEventListener('load', () => {
     setTimeout(() => {
@@ -2008,9 +2001,8 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => loader.classList.add('is-hidden'), 350);
   }
 
-  /* ========================================================================
-     2. THEME TOGGLE (DARK / LIGHT)
-     ======================================================================== */
+    //  2. THEME TOGGLE (DARK / LIGHT)
+
   const themeToggle = document.getElementById('themeToggle');
   const root = document.documentElement;
   const THEME_KEY = 'akshaya-portfolio-theme';
@@ -2058,9 +2050,8 @@ document.addEventListener('DOMContentLoaded', () => {
     setStoredTheme(next);
   });
 
-  /* ========================================================================
-     3. MOBILE NAV TOGGLE
-     ======================================================================== */
+    //  3. MOBILE NAV TOGGLE
+
   const navToggle = document.getElementById('navToggle');
   const navLinksEl = document.getElementById('navLinks');
 
@@ -2080,9 +2071,8 @@ document.addEventListener('DOMContentLoaded', () => {
     link.addEventListener('click', closeNav);
   });
 
-  /* ========================================================================
-     4. STICKY NAVBAR + SCROLL SPY
-     ======================================================================== */
+    //  4. STICKY NAVBAR + SCROLL SPY
+
   const navbar = document.getElementById('navbar');
   const sections = document.querySelectorAll('main section[id]');
   const navLinkMap = new Map();
@@ -2109,9 +2099,8 @@ document.addEventListener('DOMContentLoaded', () => {
   );
   sections.forEach((section) => spyObserver.observe(section));
 
-  /* ========================================================================
-     5. TYPING ANIMATION
-     ======================================================================== */
+    //  5. TYPING ANIMATION
+
   const typingTextEl = document.getElementById('typingText');
   const roles = [
     'scalable web applications.',
@@ -2157,9 +2146,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   if (typingTextEl) typeLoop();
 
-  /* ========================================================================
-     6. SCROLL REVEAL
-     ======================================================================== */
+    //  6. SCROLL REVEAL
+
   const revealEls = document.querySelectorAll('.reveal');
   const revealObserver = new IntersectionObserver(
     (entries) => {
@@ -2174,9 +2162,8 @@ document.addEventListener('DOMContentLoaded', () => {
   );
   revealEls.forEach((el) => revealObserver.observe(el));
 
-  /* ========================================================================
-     7. ANIMATED COUNTERS
-     ======================================================================== */
+    //  7. ANIMATED COUNTERS
+
   const counters = document.querySelectorAll('.stat__number');
 
   function animateCounter(el) {
@@ -2212,9 +2199,8 @@ document.addEventListener('DOMContentLoaded', () => {
   );
   counters.forEach((counter) => counterObserver.observe(counter));
 
-  /* ========================================================================
-     8. ANIMATED SKILL BARS
-     ======================================================================== */
+    //  8. ANIMATED SKILL BARS
+
   const skillBars = document.querySelectorAll('.skill-bar');
 
   const skillObserver = new IntersectionObserver(
@@ -2235,9 +2221,8 @@ document.addEventListener('DOMContentLoaded', () => {
   );
   skillBars.forEach((bar) => skillObserver.observe(bar));
 
-  /* ========================================================================
-     9. PROJECT FILTERING
-     ======================================================================== */
+    //  9. PROJECT FILTERING
+
   const filterBtns = document.querySelectorAll('.filter-btn');
   const projectCards = document.querySelectorAll('.project-card');
 
@@ -2260,9 +2245,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  /* ========================================================================
-     10. CONTACT FORM VALIDATION
-     ======================================================================== */
+    //  10. CONTACT FORM VALIDATION
+
   const contactForm = document.getElementById('contactForm');
   const formSuccess = document.getElementById('formSuccess');
 
@@ -2337,9 +2321,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ========================================================================
-     11. BACK TO TOP
-     ======================================================================== */
+
+    //  11. BACK TO TOP
   const backToTop = document.getElementById('backToTop');
 
   function handleBackToTop() {
@@ -2351,9 +2334,8 @@ document.addEventListener('DOMContentLoaded', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
-  /* ========================================================================
-     COMBINED SCROLL LISTENER (perf: single rAF-throttled handler)
-     ======================================================================== */
+    //  COMBINED SCROLL LISTENER (perf: single rAF-throttled handler)
+
   let scrollTicking = false;
   window.addEventListener('scroll', () => {
     if (!scrollTicking) {
@@ -2366,9 +2348,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  /* ========================================================================
-     12. FOOTER YEAR
-     ======================================================================== */
+    //  12. FOOTER YEAR
+
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
